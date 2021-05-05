@@ -27,6 +27,8 @@ override_dh_auto_clean:
 	dh_auto_clean
 
 override_dh_installdocs:
-	dh_installdocs
-	ln -fs tuf-spec.md \
-debian/python3-tuf-doc/usr/share/doc/python3-tuf/docs/tuf-spec.txt
+	dh_installdocs -ppython-${PYBUILD_NAME}-doc --doc-main-package=python3-${PYBUILD_NAME}
+	dh_installdocs --remaining-packages
+	ln -fs ${PYBUILD_NAME}-spec.md \
+          debian/python-${PYBUILD_NAME}-doc/usr/share/doc/python3-${PYBUILD_NAME}/docs/${PYBUILD_NAME}-spec.txt
+

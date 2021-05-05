@@ -1,7 +1,7 @@
-Document: python3-tuf-doc
+Document: python-tuf
 Title: TUF The update framework documentation
 Abstract: Specification, tutorial and papers about using and implementing TUF.
-Section: Video
+Section: Programming/Python
 
 Format: Text
 Index: /usr/share/doc/python3-tuf/docs/GETTING_STARTED.rst

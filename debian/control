@@ -31,7 +31,7 @@ Description: plug-and-play library for securing a software updater
  .
  tuf is developed at the Secure Systems Lab of NYU.
 
-Package: python3-tuf-doc
+Package: python-tuf-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
