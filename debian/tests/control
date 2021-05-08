@@ -1,0 +1,9 @@
+Tests: testsuite
+Depends:
+ @,
+ python3-all,
+ python3-pytest,
+ python3-cryptography,
+ python3-dateutil,
+ python3-nacl,
+Restrictions: allow-stderr
