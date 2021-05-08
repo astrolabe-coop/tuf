@@ -31,4 +31,4 @@ override_dh_installdocs:
 	dh_installdocs --remaining-packages
 	ln -fs ${PYBUILD_NAME}-spec.md \
           debian/python-${PYBUILD_NAME}-doc/usr/share/doc/python3-${PYBUILD_NAME}/docs/${PYBUILD_NAME}-spec.txt
-
+	rm -rf debian/python-${PYBUILD_NAME}-doc/usr/share/doc/python3-${PYBUILD_NAME}/docs/papers

@@ -8,6 +8,5 @@ Index: /usr/share/doc/python3-tuf/docs/GETTING_STARTED.rst
 Files: /usr/share/doc/python3-tuf/docs/*.md
  /usr/share/doc/python3-tuf/docs/*.rst
  /usr/share/doc/python3-tuf/docs/*.txt
+ /usr/share/doc/python3-tuf/docs/adr/*.md
 
-Format: PDF
-Files: /usr/share/doc/python3-tuf/docs/papers/*.pdf.gz
