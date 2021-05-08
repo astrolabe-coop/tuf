@@ -3,6 +3,7 @@ Upstream-Contact: https://github.com/theupdateframework,
  tuf developers <theupdateframework@googlegroups.com>
 Upstream-Name: tuf
 Source: https://github.com/theupdateframework
+Files-Excluded: docs/papers/*.pdf
 
 Files: *
 Copyright: 2018 New York University

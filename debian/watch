@@ -1,4 +1,10 @@
 version=4
-opts="mode=git,pgpmode=gittag" \
+opts="\
+dversionmangle=s/\+dfsg//,\
+mode=git,\
+pgpmode=gittag,\
+repacksuffix=+dfsg\
+uversionmangle=s/v//g,\
+" \
 https://github.com/theupdateframework/@PACKAGE@.git \
 refs/tags/v([\d\.]+)
