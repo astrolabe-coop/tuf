@@ -1,4 +1,4 @@
-tuf (0.17.0+dfsg-1) UNRELEASED; urgency=low
+tuf (0.17.0+dfsg-1) unstable; urgency=low
 
   [Lukas Puehringer]
   * Initial packaging effort on 0.11.2.dev3-1
@@ -7,4 +7,4 @@ tuf (0.17.0+dfsg-1) UNRELEASED; urgency=low
   * Initial release on v0.17.0+dfsg (Closes: #934151)
     - Removed Academic papers (PDF files)
 
- -- Philippe Coval <rzr@users.sf.net>  Fri, 26 Mar 2021 16:33:04 +0100
+ -- Philippe Coval <rzr@users.sf.net>  Sat, 08 May 2021 16:03:44 +0200
