@@ -7,7 +7,7 @@ enum34==1.1.10            ; python_version < '3' # via cryptography
 idna==2.10                # via requests
 ipaddress==1.0.23         ; python_version < '3' # via cryptography
 pycparser==2.20           # via cffi
-pynacl==1.4.0             # via securesystemslib
+pynacl==1.5.0             # via securesystemslib
 requests==2.25.1
 securesystemslib[crypto,pynacl]==0.19.0
 six==1.15.0
